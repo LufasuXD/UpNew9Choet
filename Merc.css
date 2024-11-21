@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* รูปแบบตัวอักษร */
+}
+.header {
+   position: sticky;
+   display: flex; /* ใช้ Flexbox เพื่อจัดแนว */
+   align-items: center; /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+   justify-content: left; /* จัดให้อยู่กึ่งกลางในแนวนอน */
+   padding: 20px; /*ช่องว่างระหว่างเนื้อหาและขอบขององค์ประกอบ */
+   background-color:aliceblue;
+}
+.image1 {
+    margin-right: 20px; /* เพิ่มระยะห่างทางขวาของรูปภาพ */
+    width: 120px; /* กำหนดความกว้างของรูป */
+    margin-left:400%; /*ขยับรูปภาพไปด้านขวา */
+    height: auto; /* ให้ปรับความสูงตามสัดส่วน */
+ }
+ .image2 {
+    margin-right: 20px; /* เพิ่มระยะห่างทางขวาของรูปภาพ */
+    width: 21px; /* กำหนดความกว้างของรูป */
+    margin-left:800%; /*ขยับรูปภาพไปด้านขวา */
+    height: auto; /* ให้ปรับความสูงตามสัดส่วน */
+ }
+ .image3 {
+    margin-right: 20px; /* เพิ่มระยะห่างทางขวาของรูปภาพ */
+    width: 24px; /* กำหนดความกว้างของรูป */
+    margin-left:750%; /*ขยับรูปภาพไปด้านขวา */
+    height: auto; /* ให้ปรับความสูงตามสัดส่วน */
+ }
+ .image4 {
+   width: 30%; /* กำหนดความกว้างของรูป */
+   margin-top: 2%;
+   margin-left: 28%; /* ขยับรูปภาพไปด้านขวา */
+   border: 2px solid black; /* เส้นขอบบาง 2px สีดำ */
+   border-radius: 5px; /* ทำมุมขอบมนเล็กน้อย */
+ }
+ .image5 {
+   width: 22.9%; /* กำหนดความกว้างของรูป */
+   margin-top: 2%;
+   margin-left: 35%; /* ขยับรูปภาพไปด้านขวา */
+   border: 2px solid black; /* เส้นขอบบาง 2px สีดำ */
+   border-radius: 5px; /* ทำมุมขอบมนเล็กน้อย */
+ }
+ .image6 {
+   height: 790px;
+   width: 20%; /* กำหนดความกว้างของรูป */
+   margin-top: 2%;
+   margin-left: 35%; /* ขยับรูปภาพไปด้านขวา */
+   border: 2px solid black; /* เส้นขอบบาง 2px สีดำ */
+   border-radius: 5px; /* ทำมุมขอบมนเล็กน้อย */
+ }
+ /* สไตล์สำหรับข้อความ */
+ .text1 {
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+    font-size: 16px;
+    margin-left:29.8%;
+    width: 80px;
+    color: #333;
+ }
+ .text2 {
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+    font-size: 16px;
+    margin-left:3%;
+    width: 80px;
+    color: #333;
+ }
+ .text4 {
+   text-decoration: none; /*ไม่มีขีดเส้นใต้ */
+   white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+   font-size: 12px;
+   margin: left 0;;
+   width: 80px;
+   color:black;
+   padding: 15px;
+}
+ .main {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #f9f9f9;
+ }
+ .product-details {
+   flex: 1;
+   padding: 20px;
+}
+
+.product-details h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+.product-details .price {
+   font-size: 20px;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.product-details .size-options {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: flex;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.product-details .size-options button {
+   border-radius: 20px;
+   padding: 10px 20px;
+   border: 1px solid black;
+   background: #fff;
+   color: black;
+   cursor: pointer;
+   transition: background 0.2s;
+}
+
+.product-details .size-options button:hover {
+   background: silver;
+}
+
+.product-details .actions {
+   display: flex;
+   gap: 10px;
+}
+
+.product-details .actions button {
+   margin-top: 4%;
+   font-size: 100%;
+   margin-left: 4%;
+   border-radius: 5px;
+   width: 30%;
+   padding: 20px;
+   border: 1px solid black;
+   background: whitesmoke;
+   color: black;
+   cursor: pointer;
+   transition: background 0.3s;
+}
+.product-details .actions1 button {
+   font-size: 100%;
+   margin-top: 3%;
+   margin-left: 4%;
+   border-radius: 5px;
+   width: 30%;
+   padding: 20px;
+   border: 1px solid black;
+   background: black;
+   color: white;
+   cursor: pointer;
+   transition: background 0.3s;
+}
+
+.product-details .actions button:hover {
+   background: silver;
+}
+.product-details .actions1 button:hover {
+   background: #333;
+}
+
+.product-details p {
+   margin-top: 20px;
+   color: #666;
+}
+.quantity-container {
+   margin-top: 4%;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   font-family: Arial, sans-serif;
+ }
+
+ .quantity-container button {
+   width: 30px;
+   height: 30px;
+   border: 1px solid #ccc;
+   background-color: #f9f9f9;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ .quantity-container input {
+   width: 50px;
+   height: 30px;
+   text-align: center;
+   border: 1px solid #ccc;
+   font-size: 16px;
+ }
+
+ .quantity-container button:disabled {
+   cursor: not-allowed;
+   color: #aaa;
+ }
+ .footer {
+   width: 100%;
+      background-color: #eaf4ff;
+      padding: 15px 0;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+ }
+ .footer a {
+   margin: 0 15px;
+   color: #000;
+   text-decoration: none;
+   font-size: 14px;
+ }
+ .footer a:hover {
+   text-decoration: underline;
+ }
